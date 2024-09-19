@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threaded - Black Friday Deals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <ul class="nav-links">
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Plus</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="nav-logo">
+                <a href="#">
+                    <img src="images/Logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-icons">
+                    <li><a href="#"><img src="images/bx_bx-user.png" alt="bx_bx-user"></a></li> <!-- User Icon -->
+                    <li><a href="#" id="shopping-bag"><img src="images/bx_bx-shopping-bag.png" alt="bx_bx-shopping-bag"></a></li> <!-- Shopping Bag Icon -->
+                    <li><a href="#"><img src="images/bx_bx-heart.png" alt="bx_bx-heart"></a></li> <!-- Heart Icon -->
+                    <li><a href="#"><img src="images/bx_bx-support.png" alt="bx_bx-support"></a></li> <!-- Support Icon -->
+                    <li><a href="#"><img src="images/bx_bx-search.png" alt="bx_bx-search"></a></li> <!-- Search Icon -->
+                    <li><a href="#"><img src="images/Currency.png" alt="Currency"></a></li> <!-- Currency Icon -->
+                </ul>
+            </div>
+        
+            <!-- Hamburger menu for small screens -->
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="hamburger-menu">
+                <ul>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Plus</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="benefits-item">
+            <img src="images/bx_bx-crown.png" alt="bx_bx-crown">
+            <p>Exclusive Deals for VIP 2 and up!</p>
+        </div>
+        <div class="benefits-item">
+            <img src="images/bx_bx-star.png" alt="bx_bx-star">
+            <p>Weekly New Arrivals</p>
+        </div>
+        <div class="benefits-item">
+            <img src="images/mdi_truck-delivery-outline.png" alt="mdi_truck-delivery-outline">
+            <p>Free Shipping On Orders Over $100</p>
+        </div>
+        <div class="benefits-item">
+            <img src="images/bx_bx-map-pin.png" alt="bx_bx-map-pin">
+            <p>Track Your Order</p>
+        </div>
+        <div class="benefits-item">
+            <img src="images/bx_bx-purchase-tag.png" alt="bx_bx-purchase-tag">
+            <p>10% Off On Your First Order!</p>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <a href="#" class="shop-now-btn">Shop Now</a>
+    </section>
+
+    <!-- Discounts Section -->
+    <section class="discounts">
+        <div class="discount-image-wrapper">
+            <img src="images/site-wide-deals.png" alt="Discount Image" class="discount-image">
+        </div>
+        <div class="shop-discount-btn-wrapper">
+            <a href="#" class="shop-discount-btn">Check Out All Site-Wide Deals</a>
+        </div>
+    </section>
+
+    <!-- VIP Exclusive Section -->
+    <section class="vip-section">
+        <a href="#" class="shop-vip-btn">Shop Now</a>
+    </section>
+
+    <!-- Now Trending Section -->
+    <section class="now-trending">
+        <h2>Now Trending</h2>
+        <p>See what everyone's wearing right now</p>
+        <div class="trending-grid">
+            <div class="trending-item">
+                <img src="images/Winter-fashion.png" alt="Winter Fashion">
+                <p>Winter Fashion</p>
+            </div>
+            <div class="trending-item">
+                <img src="images/Boots.png" alt="Boots">
+                <p>Boots</p>
+            </div>
+            <div class="trending-item">
+                <img src="images/Night-out.png" alt="Night Out">
+                <p>Night Out</p>
+            </div>
+            <div class="trending-item">
+                <img src="images/Holidays.png" alt="Holidays">
+                <p>Holidays</p>
+            </div>
+            <div class="trending-item">
+                <img src="images/Outerwear.png" alt="Outerwear">
+                <p>Outerwear</p>
+            </div>
+            <div class="trending-item">
+                <img src="images/White-dresses.png" alt="White Dresses">
+                <p>White Dresses</p>
+            </div>
+            <div class="trending-item">
+                <img src="images/Sweaters.png" alt="Sweaters">
+                <p>Sweaters</p>
+            </div>
+            <div class="trending-item">
+                <img src="images/Party.png" alt="Party">
+                <p>Party</p>
+            </div>
+        </div>
+
+        <div class="trending-hashtags">
+            <span>#Thanksgiving</span>
+            <span>#NewYears</span>
+            <span>#Knitted</span>
+            <span>#Pajamas</span>
+            <span>#WFH</span>
+            <span>#FallFashion</span>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="new-arrivals-section">
+        <a href="#" class="shop-new-arrivals-btn">Shop Now</a>
+    </section>
+
+    
+    <!-- Recently Bought Section -->
+    <section class="recently-bought-section">
+        <h2 class="section-title">Recently Bought</h2>
+        <div class="recently-bought-grid">
+            <div class="recently-bought-item" data-item-html='
+                <img src="images/Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit.png" alt="Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit">
+                <p>Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit</p>
+                <p>$38</p>
+            '>
+                <img src="images/Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit.png" alt="Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit">
+                <p>Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit</p>
+                <p>$38</p>
+            </div>
+            <div class="recently-bought-item" data-item-html='
+                <img src="images/Chevron Flap Crossbody Bag.png" alt="Chevron Flap Crossbody Bag">
+                <p>Cheron Flap Crossbody Bag</p>
+                <p><span class="sale-price">$5.77</span> <span class="original-price">$7.34</span></p>
+            '>
+                <img src="images/Chevron Flap Crossbody Bag.png" alt="Chevron Flap Crossbody Bag">
+                <p>Cheron Flap Crossbody Bag</p>
+                <p><span class="sale-price">$5.77</span> <span class="original-price">$7.34</span></p>
+            </div>
+            <div class="recently-bought-item" data-item-html='
+                <img src="images/Manilla Tan Multi Plaid Oversized Fringe Scarf.png" alt="Manilla Tan Multi Plaid Oversized Fringe Scarf">
+                <p>Manilla Tan Multi Plaid Oversized Fringe Scarf</p>
+                <p><span class="sale-price">$29</span> <span class="original-price">$39</span></p>
+            '>
+                <img src="images/Manilla Tan Multi Plaid Oversized Fringe Scarf.png" alt="Manilla Tan Multi Plaid Oversized Fringe Scarf">
+                <p>Manilla Tan Multi Plaid Oversized Fringe Scarf</p>
+                <p><span class="sale-price">$29</span> <span class="original-price">$39</span></p>
+            </div>
+            <div class="recently-bought-item" data-item-html='
+                <img src="images/Diamante Puff Sleeve Dress - Black.png" alt="Diamante Puff Sleeve Dress - Black">
+                <p>Diamante Puff Sleeve Dress - Black</p>
+                <p>$45.99</p>
+            '>
+                <img src="images/Diamante Puff Sleeve Dress - Black.png" alt="Diamante Puff Sleeve Dress - Black">
+                <p>Diamante Puff Sleeve Dress - Black</p>
+                <p>$45.99</p>
+            </div>
+            <div class="recently-bought-item" data-item-html='
+                <img src="images/Banneth Open Front Formal Dress In Black.png" alt="Banneth Open Front Formal Dress In Black">
+                <p>Banneth Open Front Formal Dress In Black</p>
+                <p><span class="sale-price">$69</span> <span class="original-price">$99.95</span></p>
+            '>
+                <img src="images/Banneth Open Front Formal Dress In Black.png" alt="Banneth Open Front Formal Dress In Black">
+                <p>Banneth Open Front Formal Dress In Black</p>
+                <p><span class="sale-price">$69</span> <span class="original-price">$99.95</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inspo Section -->
+    <section class="inspo-section">
+        <h2 class="section-title">Your Next Inspo</h2>
+        <p class="section-subtitle">Checkout who's wearing what by using #THREADEDInspo on Instagram</p>
+        <div class="inspo-grid">
+            <div class="inspo-item">
+                <img src="images/Inspo-1.png" alt="Inspo Image 1">
+            </div>
+            <div class="inspo-item">
+                <img src="images/Inspo-2.png" alt="Inspo Image 2">
+            </div>
+            <div class="inspo-item">
+                <img src="images/Inspo-3.png" alt="Inspo Image 3">
+            </div>
+            <div class="inspo-item">
+                <img src="images/Inspo-4.png" alt="Inspo Image 4">
+            </div>
+            <div class="inspo-item">
+                <img src="images/Inspo-5.png" alt="Inspo Image 5">
+            </div>
+        </div>
+        <div class="inspo-button-container">
+            <a href="#" class="view-all-posts-button">View All Posts</a>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+    <div class="newsletter-container">
+        <h2>SIGN UP FOR EXCLUSIVE DEALS AND UPDATES</h2>
+        <div class="newsletter-input">
+            <input type="email" placeholder="Your Email Address">
+            <button type="submit">></button>
+        </div>
+    </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-columns">
+                <!-- Company Info Column -->
+                <div class="footer-column">
+                    <h4>COMPANY INFO</h4>
+                    <ul>
+                        <li><a href="#">About THREADED</a></li>
+                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Help & Support Column -->
+                <div class="footer-column">
+                    <h4>HELP & SUPPORT</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">How To Order</a></li>
+                        <li><a href="#">How To Track</a></li>
+                    </ul>
+                </div>
+
+                <!-- Customer Care Column -->
+                <div class="footer-column">
+                    <h4>CUSTOMER CARE</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Payment Methods</a></li>
+                    </ul>
+                </div>
+
+                <!-- Follow Us Column -->
+                <div class="footer-column">
+                    <h4>FOLLOW US</h4>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                    </ul>
+                    <h4>WE ACCEPT</h4>
+                    <div class="payment-icons">
+                        <img src="images/visa.png" alt="Visa">
+                        <img src="images/mastercard.png" alt="MasterCard">
+                        <img src="images/maestro.png" alt="Maestro">
+                        <img src="images/american-express.png" alt="American Express">
+                        <img src="images/paypal.png" alt="PayPal">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>©2021 THREADED All Rights Reserved.</p>
+                <div class="footer-logo">
+                    <img src="images/Logo.png" alt="THREADED Logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="cart-modal">
+        <div class="cart-modal-content">
+            <span class="close-cart">&times;</span>
+            <div class="cart-items-container">
+                <!-- Items will be populated here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
